@@ -1,0 +1,48 @@
+<?php
+$userName = 'Антон Клименко';
+$userAge = '29';
+$userLocation = 'Москва';
+$userMail = 'tonache@yandex.ru';
+$userAbout = 'Руководитель маркетингывых и интернет-проектов';
+?>
+
+<body>
+        <h1>Информация о пользователе</h1>
+        <dl>
+            <dt>Имя</dt>
+            <dd><?= $userName ?></dd>
+        </dl>
+        <dl>
+            <dt>Возраст</dt>
+            <dd><?= $userAge ?></dd>
+        </dl>
+        <dl>
+            <dt>Адрес электронной почты</dt>
+            <dd><a href="mailto:tonache@yandex.ru"><?= $userMail ?></a></dd>
+        </dl>
+        <dl>
+            <dt>Город</dt>
+            <dd><?= $userLocation ?></dd>
+        </dl>
+        <dl>
+            <dt>О себе</dt>
+            <dd><?= $userAbout ?></dd>
+        </dl>
+    
+
+</body>
+
+ <style>
+            body {
+                font-family: sans-serif;  
+            }
+            
+            dl {
+                display: table-row;
+            }
+            
+            dt, dd {
+                display: table-cell;
+                padding: 5px 10px;
+            }
+ </style>
