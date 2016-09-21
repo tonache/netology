@@ -1,1 +1,13 @@
 <?php
+echo $A=2
+echo $B=3
+while ($B>$A) 
+{
+echo "Много";
+}
+while ($B<$A) 
+{
+echo "Мало";
+}
+echo "Вы";
+</php>
