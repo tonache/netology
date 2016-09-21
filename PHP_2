@@ -10,4 +10,4 @@ while ($B<$A)
 echo "Мало";
 }
 echo "Вы";
-</php>
+?>
