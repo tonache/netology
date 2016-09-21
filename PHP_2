@@ -1,13 +1,17 @@
 <?php
-echo $A=2
-echo $B=3
+
+$A=2;
+$B=2;
+
 while ($B>$A) 
 {
-echo "Много";
+echo "больше";
+exit;
 }
 while ($B<$A) 
 {
-echo "Мало";
+echo "меньше";
+exit;
 }
-echo "Вы";
+echo "Вы угадали";
 ?>
