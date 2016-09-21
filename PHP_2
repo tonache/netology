@@ -5,12 +5,12 @@ $B=2;
 
 while ($B>$A) 
 {
-echo "больше";
+echo "Слишком много";
 exit;
 }
 while ($B<$A) 
 {
-echo "меньше";
+echo "Слишком мало";
 exit;
 }
 echo "Вы угадали";
