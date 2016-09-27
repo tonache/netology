@@ -1,6 +1,6 @@
 <?php
 
-$continents = array (
+$a = array (
 "Africa" => array ("Phacochoerus africanus", "Aepyceros melampus", "Okapia johnstoni", "Leptailurus serval"),
 "Eurasia" => array ("Lepus timidus", "Haliaeetus albicilla", "Crocidura suaveolens"),
 "North America" => array ("Gulo gulo", "Tyrannosauria"),
@@ -9,7 +9,16 @@ $continents = array (
 "Antarctica" => array ("Globicephala melas")
 );
 
-echo $continents["Africa"];
-foreach($continents as $k => $v)
+echo $a["Africa"][1];
+
+foreach($a as $continents => $stats)
+{
+  $continent = $k; // конетинет - ключ
+  foreach($v as $animal)
+  {
+    // в $animal звери
+  }
+}
+
 
 
