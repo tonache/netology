@@ -20,5 +20,5 @@ foreach($a as $continents => $stats)
   }
 }
 
-
+array_keys (
 
