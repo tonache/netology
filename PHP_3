@@ -1,1 +1,12 @@
 <?php
+
+$continents = array (
+"Africa" => array ("Phacochoerus africanus", "Aepyceros melampus", "Okapia johnstoni", "Leptailurus serval")
+
+
+foreach($continents as $k => $v)
+
+
+"Eurasia" => array (""
+
+"Россия" => array("Москва", "Питер", 6 =>"Н. Новгород")
