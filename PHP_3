@@ -1,12 +1,15 @@
 <?php
 
 $continents = array (
-"Africa" => array ("Phacochoerus africanus", "Aepyceros melampus", "Okapia johnstoni", "Leptailurus serval")
+"Africa" => array ("Phacochoerus africanus", "Aepyceros melampus", "Okapia johnstoni", "Leptailurus serval"),
+"Eurasia" => array ("Lepus timidus", "Haliaeetus albicilla", "Crocidura suaveolens"),
+"North America" => array ("Gulo gulo", "Tyrannosauria"),
+"South America" => array ("Crocodylus intermedius", "Mustela felipei", "Vicugna pacos"),
+"Australia" => array ("Litoria raniformis", "Macropus"),
+"Antarctica" => array ("Globicephala melas")
+);
 
-
+echo $continents["Africa"];
 foreach($continents as $k => $v)
 
 
-"Eurasia" => array (""
-
-"Россия" => array("Москва", "Питер", 6 =>"Н. Новгород")
