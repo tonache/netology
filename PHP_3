@@ -9,16 +9,15 @@ $a = array (
 "Antarctica" => array ("Globicephala melas")
 );
 
-echo $a["Africa"][1];
 
-foreach($a as $continents => $stats)
+
+
+foreach($a as $cont => $stats)
 {
-  $continent = $k; // конетинет - ключ
-  foreach($v as $animal)
-  {
-    // в $animal звери
-  }
+echo "<h1>$cont</h1>";
+   foreach($stats as $k =>$v)
+    {
+     echo "$k:$v<br/>";
+    }
 }
-
-array_keys (
-
+var_dump($a);
