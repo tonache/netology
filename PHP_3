@@ -9,15 +9,19 @@ $a = array (
 "Antarctica" => array ("Globicephala melas")
 );
 
+echo $a["Eurasia"][1]; // найдем одно животное
 
 
-
-foreach($a as $cont => $stats)
+foreach($a as $cont => $stats) // выведем всех животных с привязкой к континентам обитания
 {
 echo "<h1>$cont</h1>";
    foreach($stats as $k =>$v)
     {
-     echo "<p>$k:$v<br/></p>";
+     echo "<p>$v<br/></p>";
     }
 }
+
+
+
 var_dump($a);
+
