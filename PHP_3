@@ -17,7 +17,7 @@ foreach($a as $cont => $stats)
 echo "<h1>$cont</h1>";
    foreach($stats as $k =>$v)
     {
-     echo "$k:$v<br/>";
+     echo "<p>$k:$v<br/></p>";
     }
 }
 var_dump($a);
