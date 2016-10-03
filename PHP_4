@@ -1,1 +1,21 @@
 <
+<?php
+
+
+$files = scandir('/img');
+foreach($files as $file){
+    if($file != '.' || $file != '..'){
+        $ext = array('jpg', 'gif', 'png');
+        $file1 = explode(".", $file);
+        if(in_array($file1[1], $ext)){
+            $date = date ("F d Y H:i:s.", filemtime($file));
+            $list[] = array($file, filesize($file),  $date);
+            $fp = fopen('CSV.csv', 'w');
+            foreach ($list as $fields) {
+                fputcsv($fp, $fields);
+            }
+            fclose($fp);
+        }
+    }
+}
+
