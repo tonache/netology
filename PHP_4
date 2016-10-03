@@ -2,7 +2,7 @@
 <?php
 
 
-$files = scandir('/img');
+$files = scandir('http://skiroom.ru/img');
 foreach($files as $file){
     if($file != '.' || $file != '..'){
         $ext = array('jpg', 'gif', 'png');
